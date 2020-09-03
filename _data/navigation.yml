@@ -1,0 +1,22 @@
+# main links
+main:
+  # - title: "Quick-Start Guide"
+  #   url: /docs/quick-start-guide/
+  - title: "Portfolio"
+    url: /
+  - title: "Posts"
+    url: /year-archive/
+  # - title: "Collections"
+  #   url: /collection-archive/
+  # - title: "Sitemap"
+  #   url: /sitemap/
+  # - title: "splash"
+  #   url: /splash-page/
+  # - title: "portfolio"
+  #   url: /portfolio/
+  # - title: "Sample Collections"
+  #   url: /collection-archive/
+  - title: "Categroies"
+    url: /categories/
+  - title: "Tags"
+    url: /tags/

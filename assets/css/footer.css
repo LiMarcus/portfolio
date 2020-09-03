@@ -1,0 +1,26 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+.footer {
+    background: #1a222c;
+    float: left;
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+    clear: both;
+      /* sticky footer fix start */
+    position: absolute;
+    bottom: 0;
+    height: auto;
+    /* sticky footer fix end */
+    margin-top: 3rem;
+    -webkit-animation-delay: 0.45s;
+    animation-delay: 0.45s;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 12.6px !important;
+    font-family: 'Montserrat' ,sans-serif;
+    text-align:center;
+    color:#fff
+}
+footer a{text-decoration:none;margin:0;color:#fff}
+.footer .love{color:red}

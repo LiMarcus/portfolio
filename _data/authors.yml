@@ -1,0 +1,25 @@
+Marcus Li:
+  name        : Marcus Li
+  bio         : "Learning Javascript, Java and algrithm now, this is a place to record my coding footprint."
+  avatar      : "/assets/images/logo.png"
+  location    : "Vancouver, CA"
+  email       : li.marcus@hotmail.com
+  links:
+    # - label: "Email"
+    #   icon: "fas fa-fw fa-envelope-square"
+    #   url: "mailto:li.marcus@hotmail.com"
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://myfreestylecraft.com"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      # url: "https://twitter.com/extravagantman"
+    - label: "Facebook"
+      icon: "fab fa-fw fa-facebook-square"
+      # url: "https://facebook.com/"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/LiMarcus"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      # url: "https://instagram.com/"
