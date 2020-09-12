@@ -192,7 +192,15 @@
   .timeline-event-years-1,
   .timeline-event-years-1:before {
     width: 10vw;
+    animation: anmination-1 0.5s;
+    /* animation-delay: 2.25s; */
   }
+
+  @keyframes anmination-1 {
+    from {width: 1vw;}
+    to {width: 10vw;}
+  }
+  
   
   /* X.5 years */
   .timeline-event-years-1-5,
@@ -228,12 +236,25 @@
   .timeline-event-years-4,
   .timeline-event-years-4:before {
     width: 40vw;
+    animation: anmination-4 2s;
+    /* animation-delay: 2.75s; */
   }
   
+  @keyframes anmination-4 {
+    from {width: 1vw;}
+    to {width: 40vw;}
+  }
+
   /* X.5 years */
   .timeline-event-years-4-5,
   .timeline-event-years-4-5:before {
     width: 45vw;
+    animation: anmination-4-5 2.25s;
+  }
+
+  @keyframes anmination-4-5 {
+    from {width: 1vw;}
+    to {width: 45vw;}
   }
   
   /* X years */
