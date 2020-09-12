@@ -49,7 +49,7 @@
   
   /* Display last year */
   .timelines-years li:last-child {
-    width: 10vw;
+    width: 5vw;
   }
   
   /* Timeline - Events */
