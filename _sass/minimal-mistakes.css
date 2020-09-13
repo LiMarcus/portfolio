@@ -2115,7 +2115,7 @@ th {
    MASTHEAD
    ========================================================================== */
 .masthead {
-  background-color: #1a222c;
+  background-color: black;
   position: relative;
   border-bottom: 1px solid #f2f3f3;
   -webkit-animation: intro 0.3s both;
@@ -2180,7 +2180,7 @@ th {
 }
 
 .masthead__menu {
-  background-color: #1a222c;
+  background-color: black;
   float: left;
   margin-left: 0;
   margin-right: 0;
@@ -2400,7 +2400,7 @@ th {
      Priority plus navigation
      ========================================================================== */
 .greedy-nav {
-  background: #1a222c;
+  background: black;
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2492,7 +2492,7 @@ th {
   padding: 5px;
   border: 1px solid #f2f3f3;
   border-radius: 4px;
-  background: #1a222c;
+  background: black;
   -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
 }

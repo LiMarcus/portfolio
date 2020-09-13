@@ -1,0 +1,21 @@
+.slideword {
+    --fill-color: #198CE6;
+    position: relative;
+    display: block;
+    padding: 4px 0;
+    font: 700 2rem Raleway, sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    -webkit-text-stroke: 2px var(--fill-color);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0, var(--fill-color))) left/0 no-repeat;
+    background: linear-gradient(var(--fill-color) 0 100%) left/0 no-repeat;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    -webkit-transition: 0.5s linear;
+    transition: 0.5s linear;
+  }
+  
+  .slideword:hover {
+    background-size: 100%;
+  }
