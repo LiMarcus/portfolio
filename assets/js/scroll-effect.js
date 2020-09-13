@@ -15,3 +15,17 @@ $(window).scroll(function () {
         }
     });
 });
+
+$(window).scroll(function () {
+    $('.land-effect').each(function () {
+        var imagePos = $(this).offset().top;
+        var imageHeight = $(this).height();
+        var topOfWindow = $(window).scrollTop();
+        var scrollBottom = $(window).scrollTop() + $(window).height();
+        if (imagePos < scrollBottom - imageHeight) {
+            $(this).addClass("landIn");
+        } else {
+            $(this).removeClass("landIn");
+        }
+    });
+});
